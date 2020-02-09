@@ -6,7 +6,6 @@ const SingleTimer = ({ timer, timerIsOn, setTimer, setTimerIsOn }) => {
   return (
     <Grid item xs={4} style={{ textAlign: "center" }}>
       <Typography variant="h5">Timer 3</Typography>
-      {/* <Typography variant="h6">{timeConversion(timer)}</Typography> */}
       <TimeDisplay milliseconds={timer} />
       <Button variant="outlined" onClick={event => setTimerIsOn(!timerIsOn)}>
         {timerIsOn ? "Pause" : "Play"}
