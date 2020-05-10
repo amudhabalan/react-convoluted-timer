@@ -11,3 +11,4 @@ A Convoluted Timer written in ReactJs using React Hooks
 - Individual timers can be Played, Paused or Reset separately, which reflects in the total timer
 - Uses React Hooks (useState) for state management
 - Designed to be Responsive for mobile & tablets
+- Uses CSS3 for styling. Flexbox for aligning items
