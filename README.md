@@ -12,3 +12,4 @@ A Convoluted Timer written in ReactJs using React Hooks
 - Uses React Hooks (useState) for state management
 - Designed to be Responsive for mobile & tablets
 - Uses CSS3 for styling. Flexbox for aligning items
+- Watch it in action at https://friendly-mccarthy-9b0649.netlify.app/
