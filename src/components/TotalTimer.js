@@ -1,17 +1,12 @@
-import React from "react";
-import { Grid, Typography } from "@material-ui/core";
-import TimeDisplay from "./TimeDisplay";
+import React from 'react';
+import TimeDisplay from './TimeDisplay';
 
 const TotalTimer = ({ timer }) => {
   return (
-    <Grid
-      item
-      xs={12}
-      style={{ border: "2px solid grey", textAlign: "center" }}
-    >
-      <Typography variant="h5">Total Timer</Typography>
+    <div className="totaltimer">
+      <h1>Total Timer</h1>
       <TimeDisplay milliseconds={timer} />
-    </Grid>
+    </div>
   );
 };
 

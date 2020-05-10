@@ -1,13 +1,13 @@
-import React, { useEffect } from "react";
-import { Grid, Typography, Button } from "@material-ui/core";
-import TimeDisplay from "./TimeDisplay";
+import React, { useEffect } from 'react';
+import TimeDisplay from './TimeDisplay';
 
 const SingleTimer = ({
   timer,
   timerIsOn,
   setTimer,
   setTimerIsOn,
-  intervalTime
+  intervalTime,
+  id
 }) => {
   useEffect(() => {
     let interval = null;
@@ -22,23 +22,25 @@ const SingleTimer = ({
   }, [timerIsOn, timer, setTimer, intervalTime]);
 
   return (
-    <Grid item xs={4} style={{ textAlign: "center" }}>
-      <Typography variant="h5">Timer 3</Typography>
+    <div className="timer">
+      <h2>Timer {id}</h2>
       <TimeDisplay milliseconds={timer} />
-      <Button variant="outlined" onClick={event => setTimerIsOn(!timerIsOn)}>
-        {timerIsOn ? "Pause" : "Play"}
-      </Button>
-      &nbsp;
-      <Button
-        variant="outlined"
+      <button
+        className="btn btn-play"
+        onClick={event => setTimerIsOn(!timerIsOn)}
+      >
+        {timerIsOn ? 'Pause' : 'Play'}
+      </button>
+      <button
+        className="btn btn-reset"
         onClick={event => {
           setTimer(0);
           setTimerIsOn(false);
         }}
       >
         Reset
-      </Button>
-    </Grid>
+      </button>
+    </div>
   );
 };
 
