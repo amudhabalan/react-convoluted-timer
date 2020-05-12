@@ -1,7 +1,10 @@
-A Convoluted Timer written in ReactJs using React Hooks
+# A Convoluted Timer written in ReactJs
 
 ![A Convoluted Timer](screenshot.jpg)
 
+#### Watch it in action at https://friendly-mccarthy-9b0649.netlify.app/
+
+## Features
 - Three individual timers that increment at different time intervals
 - A total timer shows the sum of all timers at any point in time
 - All timers display the time in the format mm:ss.ttt (m = minute, s = second, t = millisecond)
@@ -9,7 +12,9 @@ A Convoluted Timer written in ReactJs using React Hooks
 - Timer 2 increments every 1 second
 - Timer 3 increments every 10 seconds
 - Individual timers can be Played, Paused or Reset separately, which reflects in the total timer
+
+## Technology
 - Uses React Hooks (useState) for state management
 - Designed to be Responsive for mobile & tablets
-- Uses CSS3 for styling. Flexbox for aligning items
-- Watch it in action at https://friendly-mccarthy-9b0649.netlify.app/
+- Uses CSS3 for styling
+
