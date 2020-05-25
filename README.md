@@ -1,8 +1,8 @@
 # A Convoluted Timer written in ReactJs
 
-![A Convoluted Timer](screenshot.jpg)
-
 #### Watch it in action at https://friendly-mccarthy-9b0649.netlify.app/
+
+![A Convoluted Timer](screenshot.jpg)
 
 ## Features
 - Three individual timers that increment at different time intervals
