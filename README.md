@@ -1,6 +1,6 @@
 # A Convoluted Timer written in ReactJs
 
-#### Watch it in action at https://friendly-mccarthy-9b0649.netlify.app/
+#### Watch it in action at https://amudstimer.netlify.app/
 
 ![A Convoluted Timer](screenshot.jpg)
 
